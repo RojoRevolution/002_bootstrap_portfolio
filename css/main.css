@@ -1,0 +1,123 @@
+/* ----------- */
+/* Universal Rules */
+/* ----------- */
+
+body {
+    background-color:#404040;
+    min-height: 1000px;
+}
+
+h1 {
+    font-family: 'Domine', Georgia, serif;
+    font-size: 3em;
+    line-height: 1.5em;
+    color:white;
+}
+
+h2 {
+    font-family: 'Domine', Georgia, serif;
+    font-size:2em;
+    color: white;
+    margin: 1em;
+}
+
+h3 {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 1em;
+}
+
+a {
+    color:#4d7fef;
+    text-decoration: none;
+    transition:.5s;
+
+}
+
+a:hover {
+    color:#1744aa;
+}
+
+ p {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size:1.25em;
+    color: #939393;
+    line-height: 1.5em;
+ }
+
+main {
+    width: 100%;
+}
+
+/* Color Change for text using spans */
+.rojo {
+    color:#E82E2B;
+}
+
+/* ----------- */
+/* Spacing Specific Rules */
+/* ----------- */
+
+/* Minimum Height for intro area */
+.minh500 {
+    min-height: 750px;
+}
+
+/* Padding for intro area */
+.intro-pad {
+    padding: 4em 0;
+}
+
+/* Margin Bottom 50px */
+.bottom-m-50 {
+    margin-bottom: 50px;
+}
+
+/* Margin Bottom 50px */
+.bottom-m-100 {
+    margin-bottom: 100px;
+}
+
+.left-right-m-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.top-m-100 {
+    margin-top:100px;
+}
+
+.top-m-150 {
+    margin-top:150px;
+}
+
+/* ----------- */
+/* Navigation Specific CSS */
+/* ----------- */
+
+/* Changes to Nav Background*/
+.nav-cust {
+    background-color:rgba(0,0,0,0.25);
+    z-index:10;
+    width: 100%;
+    top:0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+/* Changes to Nav text */
+.nav-text {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.active {
+    border-bottom: 3px solid #ffffff;
+}
+
+/* ----------- */
+/* Intro Specific Rules */
+/* ----------- */
+.intro-bg {
+    background: url("../images/intro_bg.jpg") center/cover no-repeat fixed;
+}
