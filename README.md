@@ -1,6 +1,6 @@
 
 # 002_bootstrap_portfolio
-Live URL: https://rojorevolution.github.io/002_bootstrap_portfolio/.
+Live URL: https://rojorevolution.github.io/002_bootstrap_portfolio/
 
 This project is a responsive website layout created with the Bootstrap framework, as part of the UT-Austin Full Stack Web Dev Bootcamp. It is eventually meant to house a portfolio website but for now the content is empty. View below for information on the individual files.
 
