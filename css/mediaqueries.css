@@ -1,0 +1,22 @@
+
+
+/* Adjustment to width cards to help the stack at this width */
+@media screen and (min-width:768px) and (max-width:990px) {
+    .col-adj {
+        width: 50%;
+    }
+
+}
+
+/* Adjustment to Row Width to keep cards from being too wide */
+@media screen and (max-width:600px) {
+    /* Smalla adjustment to H1 spacing for index */
+    .intro-pad {
+        padding: 3em 0;
+    }
+    
+    .row-adj {
+        margin: 6%;
+    }
+
+}
