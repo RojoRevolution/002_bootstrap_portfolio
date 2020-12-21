@@ -11,7 +11,7 @@ The following elements are shared on every page.
 
 ## Index Page
 
-• Direclty below the nav, an intro(hero) area is included comprised of an <h1> tag and a background-image
+• Direclty below the nav, an intro(hero) area is included comprised of an h1 tag and a background-image
 • Below the hero area, I included a small section with cards meant to be more of a preview of some of the projects(but not allof them) that will be included in the portfolio. The cards include an image preview area, a sub header, small info teaser paragraph and a "view more" button.
 • Below the Project cards, I incldued a button which links to the actual portfolio page (same as the link in the header). This is only placeholder for now depending on how the content develops
 
