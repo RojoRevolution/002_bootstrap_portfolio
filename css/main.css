@@ -133,6 +133,7 @@ main {
     border-radius: 1.5rem;
     box-shadow: 0px 0px 20px rgba(0,0,0,.5);
     color:#ffffff;
+    min-height: 500px;
 }
 
 /* Adjust Top Corners of images in cards to match container */
