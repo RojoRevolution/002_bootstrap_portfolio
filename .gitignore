@@ -1,5 +1,6 @@
 node_modules
 package-lock.json
+og-files
 
 # DS STORE
 .DS_Store
