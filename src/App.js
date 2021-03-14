@@ -1,7 +1,6 @@
 import React from "react";
-import { HashLink as Link } from 'react-router-hash-link';
-import NoMatch from "./Pages/NoMatch";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NoMatch from "./Pages/NoMatch";
 import Home from "./Pages/Home"
 import Work from "./Pages/Work"
 import About from "./Pages/About"
