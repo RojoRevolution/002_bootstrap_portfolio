@@ -1,6 +1,11 @@
 
 # 002_bootstrap_portfolio
-Live URL: https://rojorevolution.github.io/002_bootstrap_portfolio/
+
+[Live Deploy](https://react-bs-portfolio.herokuapp.com/)
+
+### Note: 
+This project was created for a Full-Stack Coding Bootcamp, with the latest requirments being to convert the project into a React.js app. This project is not however, my actual portfolio. For my comlpete portfolio please visit [rojorevoution.com](https://rojorevolution.com)
+
 
 ![Screenshot](images/002_bootstrap_screenshot.png)
 
