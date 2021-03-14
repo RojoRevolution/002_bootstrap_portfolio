@@ -1,0 +1,58 @@
+[
+    {
+        "id": 7,
+        "name": "Dynamic Quiz",
+        "image": "images/projects/code_quiz.png",
+        "description": "This project was one of my first brushes interacting with the DOM in Javascript. It incoporate the use of dynamic buttons, timers as well as leveraging Local Storage to keep track of your score, and allow you to input your name at the end.",
+        "live": "https://rojorevolution.github.io/004_Code_Quiz/",
+        "gitHub": "https://github.com/RojoRevolution/004_Code_Quiz"
+    },
+    {
+        "id": 6,
+        "name": "Password Generator",
+        "image": "images/projects/password_gen.png",
+        "description": "Using various prompt options, a random number generator, string concatenation, and a simple loop. This project allows you to generat a random set of chatacters which could be used as a password.",
+        "live": "https://rojorevolution.github.io/003-JS-password-generator/",
+        "gitHub": "https://github.com/RojoRevolution/003-JS-password-generator"
+    },
+    {
+        "id": 5,
+        "name": "Daily Planner App",
+        "image": "images/projects/daily_planner.png",
+        "description": "This project leverages local storage to save item entered into the hourly planner. An API is used to display the date and time, and color code the background of each row based on the current time.",
+        "live": "https://rojorevolution.github.io/005_Work_Day_Scheduler/",
+        "gitHub": "https://github.com/RojoRevolution/005_Work_Day_Scheduler"
+    },
+    {
+        "id": 4,
+        "name": "Weather App",
+        "image": "images/projects/weather_dash.png",
+        "description": "This project leverages API calls to grab current weather conditions and a 5 day forecast. Local storage is used to save the search history and render the last searches item on reload.",
+        "live": "https://rojorevolution.github.io/006-Weather-Dashboard/",
+        "gitHub": "https://github.com/RojoRevolution/006-Weather-Dashboard"
+    },
+    {
+        "id": 3,
+        "name": "Good Day For A Beer",
+        "image": "images/projects/project1_bg.png",
+        "description": "This project used two different API's, a new JS Library, and a new CSS framework.",
+        "live": "https://reagang1997.github.io/INeedADrink/",
+        "gitHub": "https://github.com/reagang1997/INeedADrink"
+    },
+    {
+        "id": 2,
+        "name": "Eat-Da-Burger",
+        "image": "images/projects/eat-da-burger.png",
+        "description": "A simple web app built with Node.js. It incorporate a MySQL database, uses Express for routing, and Handlebar as the view engine.",
+        "live": "https://eat-da-burger-rojo.herokuapp.com/",
+        "gitHub": "https://github.com/RojoRevolution/013-Eat-Da-Burger"
+    },
+    {
+        "id": 1,
+        "name": "Yay or Nay",
+        "image": "images/projects/p2-yay-or-nay",
+        "description": "A full stack group project that was an exercise in authentication and relational tables with Node, Express, Passport and MySQL.",
+        "live": "https://p002-yay-or-nay.herokuapp.com",
+        "gitHub": "https://github.com/RojoRevolution/p2_org_decider"
+    }
+]

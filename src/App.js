@@ -1,17 +1,23 @@
 import React from "react";
-import Dashboard from "./pages/Dashboard";
-import NoMatch from "./pages/NoMatch";
+import { HashLink as Link } from 'react-router-hash-link';
+import NoMatch from "./Pages/NoMatch";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./Pages/Home"
+import Work from "./Pages/Work"
+import About from "./Pages/About"
 
-// The app will not render correctly until you setup a Route component.
-// Refer to the Basic Example documentation if you need to.
-// (https://reacttraining.com/react-router/web/example/basic)
+import NavBar from "./components/NavBar/"
+
 function App() {
   return (
     <Router>
       <div>
+        <NavBar />
         <Switch>
-          <Route exact path="/" component={Dashboard} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/work" component={Work} />
+          <Route exact path="/about" component={About} />
           <Route component={NoMatch} />
         </Switch>
         {/* <Books /> */}
