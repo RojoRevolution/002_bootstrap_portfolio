@@ -1,0 +1,209 @@
+/* ----------- */
+/* Universal Rules */
+/* ----------- */
+
+body {
+    background-color:#404040;
+    min-height: 1000px;
+}
+
+h1 {
+    font-family: 'Domine', Georgia, serif;
+    font-size: 3em;
+    line-height: 1.5em;
+    color:white;
+}
+
+h2 {
+    font-family: 'Domine', Georgia, serif;
+    font-size:2em;
+    color: white;
+    margin: 1em;
+}
+
+h3 {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 1em;
+}
+
+a {
+    color:#4d7fef;
+    text-decoration: none;
+    transition:.5s;
+
+}
+
+a:hover {
+    color:#1744aa;
+}
+
+ p {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size:1em;
+    color: #939393;
+    line-height: 1.5em;
+ }
+
+main {
+    width: 100%;
+}
+
+/* Color Change for text using spans */
+.rojo {
+    color:#E82E2B;
+}
+
+/* ----------- */
+/* Spacing Specific Rules */
+/* ----------- */
+
+/* Minimum Height for intro area */
+.minh500 {
+    min-height: 750px;
+}
+
+/* Padding for intro area */
+.intro-pad {
+    padding: 4em 0;
+}
+
+/* Margin Bottom 50px */
+.bottom-m-50 {
+    margin-bottom: 50px;
+}
+
+/* Margin Bottom 50px */
+.bottom-m-100 {
+    margin-bottom: 100px;
+}
+
+.left-right-m-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.top-m-100 {
+    margin-top:100px;
+}
+
+.top-m-150 {
+    margin-top:150px;
+}
+
+/* ----------- */
+/* Navigation Specific CSS */
+/* ----------- */
+
+/* Changes to Nav Background*/
+.nav-cust {
+    background-color:rgba(0,0,0,0.25);
+    z-index:10;
+    width: 100%;
+    top:0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+/* Changes to Nav text */
+.nav-text {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.active {
+    border-bottom: 3px solid #ffffff;
+}
+
+/* ----------- */
+/* Intro Specific Rules */
+/* ----------- */
+.intro-bg {
+    background: url("../images/intro_bg.jpg") center/cover no-repeat fixed;
+}
+
+
+/* ----------- */
+/* Card Specific Rules */
+/* ----------- */
+
+/* Adjusts corners and adds drop shadow */
+.c-updates {
+    background: #232323;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+    color:#ffffff;
+    min-height: 500px;
+}
+
+.c-updates:hover {
+    box-shadow: 0px 0px 20px rgba(255,255,255,.5);
+}
+
+/* Adjust Top Corners of images in cards to match container */
+.card-img-top-adjust {
+    border-top-left-radius: calc(1.5rem - 1px);
+    border-top-right-radius: calc(1.5rem - 1px);
+}
+
+/* Changes for card buttons */
+.viewProject {
+    color: #4d7fef;
+    border:none;
+    background-color:#ffffff;
+}
+
+/* Changes for View More Button on homepage */
+.viewMore {
+    background: #232323;
+    color:#4d7fef;
+    border: none;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.5);
+}
+
+
+/* Form Width Control */
+.form-max-width {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 99%;
+}
+
+
+/* ----------- */
+/* Footer Specific Rules */
+/* ----------- */
+footer {
+    background-color:#232323;
+    color:#ffffff;
+    margin-top: 150px;
+}
+
+/* Footer Links */
+footer a {
+    color:#ffffff;
+}
+
+/* Footer Links Hover*/
+footer a:hover {
+    color:#4d7fef;
+}
+/* Footer Paragraph */
+footer p {
+    color#grey;
+    font-size:.75em;
+    text-align: center;
+    margin: 0;
+}
+
+/* Max width for Row containing footer links */
+.footer-a-max-width {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+/* rules for copyright section at the bottom of the footer */
+.copyright {
+    background-color: black;
+    padding: 15px 0;
+}
