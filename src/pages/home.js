@@ -1,8 +1,8 @@
 import React from "react";
 import HomeIntro from "../components/HomePage/Intro";
 import RecentWork from "../components/HomePage/RecentWork";
-import Footer from "../components/Footer/";
-import Button from "../components/Button/";
+import Footer from "../components/Footer";
+import Button from "../components/Button";
 
 function Home() {
 

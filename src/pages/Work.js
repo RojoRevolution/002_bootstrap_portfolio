@@ -1,6 +1,6 @@
 import React from "react";
 import RecentWork from "../components/HomePage/RecentWork";
-import Footer from "../components/Footer/";
+import Footer from "../components/Footer";
 
 function Work() {
 
