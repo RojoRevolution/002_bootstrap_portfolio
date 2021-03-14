@@ -7,7 +7,7 @@
 This project was created for a Full-Stack Coding Bootcamp, with the latest requirments being to convert the project into a React.js app. This project is not however, my actual portfolio. For my comlpete portfolio please visit [rojorevoution.com](https://rojorevolution.com)
 
 
-![Screenshot](images/002_bootstrap_screenshot.png)
+![Screenshot](/public/images/002_bootstrap_screenshot.png)
 
 This project is a responsive website layout created with the Bootstrap framework, as part of the UT-Austin Full Stack Web Dev Bootcamp. It is eventually meant to house a portfolio website but for now the content is empty. View below for information on the individual files.
 
